@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  // font: 1em "Fira Sans", sans-serif;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-contrast {
+  color: #222222;
+  background-color: #eeeeee;
+  height: 300px;
+  width: 100%;
+}

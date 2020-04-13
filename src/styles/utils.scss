@@ -1,0 +1,25 @@
+
+.text-debug {
+  color: var(--debug);
+}
+
+.text-info {
+  color: var(--info);
+}
+
+.text-warn {
+  color: var(--warn);
+}
+
+.text-error {
+  color: var(--error);
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-bold {
+  font-weight: 700;
+}

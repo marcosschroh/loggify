@@ -1,0 +1,27 @@
+.log-box {
+  margin-top: 50px;
+  margin-bottom: 10rem;
+  max-width: 900px;
+
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar
+  }
+
+  .table {
+    text-align: left;
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border-width: 1px!important;
+    border: 0 solid #bbbbbb /* 2 */;
+    padding: .5rem 3rem .5rem 1rem ;
+  }
+
+}
