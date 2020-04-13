@@ -8,10 +8,10 @@ const LogTable = (props) => {
         <table className="table">
           <thead>
             <tr className="font-bold">
-              <th>Level</th>
-              <th>Description</th>
-              <th>Intervention</th>
-              <th>Example</th>
+              <th>LEVEL</th>
+              <th>DESCRIPTION</th>
+              <th>INTERVENTION</th>
+              <th>EXAMPLE</th>
             </tr>
           </thead>
           <tbody>

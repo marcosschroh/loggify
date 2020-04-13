@@ -8,7 +8,7 @@
     overflow-x: auto;
     display: block;
     -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 
   .table {
@@ -18,10 +18,12 @@
     width: 100%;
   }
 
-  th, td {
-    border-width: 1px!important;
-    border: 0 solid #bbbbbb /* 2 */;
-    padding: .5rem 3rem .5rem 1rem ;
+  th,
+  td {
+    border-width: 1px !important;
+    padding: 0.5rem 3rem 0.5rem 1rem;
   }
-
+  th {
+    font-size: 1.2rem;
+  }
 }
