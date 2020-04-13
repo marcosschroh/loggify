@@ -6,7 +6,7 @@ import Wave from "components/Wave";
 export default function Index() {
   return (
     <CenterLayout>
-      <h1 className="h1">Loggify</h1>
+      <h1 className="h1">Loggify 📓</h1>
       <LogTable />
       <Wave />
       <ProgrammingLanguages />
