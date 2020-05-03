@@ -17,7 +17,30 @@
   margin: 1em;
 }
 
+.language-selected {
+  padding-bottom: 5px;
+  border-bottom: 3px solid gray;
+}
+
 .language-text{
   flex: 1;
   text-transform: capitalize;
+}
+
+.language-container {
+  display: flex;
+  border: 2px solid grey;
+  max-width: 80%;
+}
+
+.language-description {
+  flex: 1;
+  word-wrap: break-word;
+  color: var(--contrast-color);
+  padding: 10px;
+  background-color: var(--contrast-bg-color);
+}
+
+.language-code {
+  flex:1;
 }

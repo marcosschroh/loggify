@@ -1,6 +1,9 @@
 export const languages = [
   {name: 'python', 
   logo: 'https://res.cloudinary.com/dqttdaxfr/image/upload/c_scale,h_100/v1587927328/loggify/python.png',
+  description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet, ipsum ut faucibus euismod, ex erat semper diam, sed lobortis ligula lorem et odio. Proin sit amet vehicula tellus. Nam scelerisque, orci et blandit pulvinar, orci odio posuere mauris, sed semper ante nibh ac orci. Fusce laoreet urna massa. Sed fermentum sem eget convallis tempus. In venenatis lorem ut nibh tristique, sed consequat ipsum fermentum. Nulla eget rutrum diam.
+
+  Nunc molestie diam justo, eu volutpat lacus rutrum a. In vitae hendrerit ipsum. Aliquam erat volutpat. Nulla venenatis quam diam, id ultricies velit facilisis vitae. Pellentesque in ex rutrum, dapibus urna vitae, vehicula nibh. Vivamus iaculis, purus tempus faucibus convallis, elit justo tristique neque, quis bibendum nulla turpis in libero. Curabitur vitae dictum augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse nec sagittis augue, cursus feugiat tellus. Aenean suscipit justo et sagittis tempor.`,
   code: `import logging
   import auxiliary_module
   
@@ -33,6 +36,9 @@ export const languages = [
   },
   {name: 'java', 
     logo: 'https://res.cloudinary.com/dqttdaxfr/image/upload/c_scale,h_100/v1587927328/loggify/java.png',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet, ipsum ut faucibus euismod, ex erat semper diam, sed lobortis ligula lorem et odio. Proin sit amet vehicula tellus. Nam scelerisque, orci et blandit pulvinar, orci odio posuere mauris, sed semper ante nibh ac orci. Fusce laoreet urna massa. Sed fermentum sem eget convallis tempus. In venenatis lorem ut nibh tristique, sed consequat ipsum fermentum. Nulla eget rutrum diam.
+
+    Nunc molestie diam justo, eu volutpat lacus rutrum a. In vitae hendrerit ipsum. Aliquam erat volutpat. Nulla venenatis quam diam, id ultricies velit facilisis vitae. Pellentesque in ex rutrum, dapibus urna vitae, vehicula nibh. Vivamus iaculis, purus tempus faucibus convallis, elit justo tristique neque, quis bibendum nulla turpis in libero. Curabitur vitae dictum augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse nec sagittis augue, cursus feugiat tellus. Aenean suscipit justo et sagittis tempor.`,  
     code: `
     package bitacora;
     
@@ -142,6 +148,9 @@ export const languages = [
   },
   {name: 'ruby', 
   logo: 'https://res.cloudinary.com/dqttdaxfr/image/upload/c_scale,h_100/v1587927328/loggify/ruby.png',
+  description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet, ipsum ut faucibus euismod, ex erat semper diam, sed lobortis ligula lorem et odio. Proin sit amet vehicula tellus. Nam scelerisque, orci et blandit pulvinar, orci odio posuere mauris, sed semper ante nibh ac orci. Fusce laoreet urna massa. Sed fermentum sem eget convallis tempus. In venenatis lorem ut nibh tristique, sed consequat ipsum fermentum. Nulla eget rutrum diam.
+
+  Nunc molestie diam justo, eu volutpat lacus rutrum a. In vitae hendrerit ipsum. Aliquam erat volutpat. Nulla venenatis quam diam, id ultricies velit facilisis vitae. Pellentesque in ex rutrum, dapibus urna vitae, vehicula nibh. Vivamus iaculis, purus tempus faucibus convallis, elit justo tristique neque, quis bibendum nulla turpis in libero. Curabitur vitae dictum augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse nec sagittis augue, cursus feugiat tellus. Aenean suscipit justo et sagittis tempor.`,
   code: `require 'logger'
 
   logger = Logger.new(STDOUT)
