@@ -4,7 +4,6 @@ import Head from "next/head";
 import Highlight from "react-highlight.js";
 import LogTable from "components/LogTable";
 import ProgrammingLanguages from "components/ProgrammingLanguages";
-import Wave from "components/Wave";
 import { languages } from "../utils/constants";
 import { useRouter } from "next/router";
 
