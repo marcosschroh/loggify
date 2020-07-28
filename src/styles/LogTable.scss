@@ -1,7 +1,7 @@
 .log-box {
   margin-top: 5em;
-  margin-bottom: 5em;
-  max-width: 900px;
+  max-width: 1024px;
+  min-height: 60vh;
 
   .table-responsive {
     width: 100%;
@@ -22,8 +22,13 @@
   td {
     border-width: 1px !important;
     padding: 0.5rem 3rem 0.5rem 1rem;
+    font-size: 1.3em;
   }
   th {
-    font-size: 1.2rem;
+    font-size: 2.5em;
+  }
+  thead {
+    border-bottom: thin solid;
+    margin-bottom: 15px;
   }
 }
