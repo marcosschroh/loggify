@@ -16,20 +16,17 @@ const LogTable = (props) => {
           <tbody>
             <tr>
               <td className="font-bold text-debug">DEBUG</td>
-              <td>Meaningful for developers, IT, sysadmin</td>
+              <td>Meaningful for developers and sysadmin</td>
               <td>-</td>
             </tr>
             <tr>
               <td className="font-bold text-info">INFO</td>
-              <td>Useful information to have</td>
-              <td>Start or stop service, configuration</td>
+              <td>Reporting and metrics</td>
+              <td>Start or stop service, request status code</td>
             </tr>
             <tr>
               <td className="font-bold text-warn">WARNING</td>
-              <td>
-                Can potentially cause application oddities, but will
-                automatically recover
-              </td>
+              <td>Potential app oddities, but will automatically recover</td>
               <td>
                 Switching from a primary to backup server, retrying an operation
               </td>
@@ -37,8 +34,7 @@ const LogTable = (props) => {
             <tr>
               <td className="font-bold text-error">ERROR</td>
               <td>
-                Any error fatal to the operation, but not the service or
-                application
+                Fatal errors to operations, not the service or application.
               </td>
               <td>Can't open a required file, missing data</td>
             </tr>

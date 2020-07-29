@@ -1,6 +1,19 @@
+:root {
+  --angle-degrees: 9;
+  --angle: calc(var(--angle-degrees) * 0.01745329251);
+  --tan-term1: var(--angle);
+  --tan-term2: calc((1/3) * var(--angle) * var(--angle) * var(--angle));
+  --tan-term3: calc((2 / 15) * var(--angle) * var(--angle) * var(--angle) * var(--angle) * var(--angle));
+  --tan-term4: calc((17/315) * var(--angle) * var(--angle) * var(--angle) * var(--angle) * var(--angle) * var(--angle) * var(--angle));
+  --tan: calc(var(--tan-term1) + var(--tan-term2) + var(--tan-term3) + var(--tan-term4));
+
+  --content-width: 100vw;
+	--skew-padding: calc(var(--content-width) * var(--tan));
+}
 .diagonal-box {
   background-image: linear-gradient(45deg, #6303b1, #ff0099);
   transform: skewY(-9deg);
+  padding: var(--skew-padding) 0;
 }
 
 .content {
@@ -8,4 +21,10 @@
   overflow-x: auto;
   margin: auto;
   transform: skewY(9deg);
+}
+
+@media screen and (min-width: 42em) {
+	:root {
+		--content-width: 42em;
+	}
 }

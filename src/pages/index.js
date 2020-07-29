@@ -40,6 +40,12 @@ export default function Index() {
             </div>
           </CenterLayout>
         </DiagonalBox>
+        <div>
+        Made by
+        <a href="https://twitter.com/santiwilly">Santi</a>
+        and
+        <a href="https://twitter.com/f_mhl_">Fran</a>
+        </div>
       </CenterLayout>
     </>
   );
